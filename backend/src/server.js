@@ -25,7 +25,7 @@ app.use(cors())
 app.set('port',process.env.PORT || 3000)
 
 
-
+//cualquier ruta que se vaya usar se pone en esta 
 // Rutas 
 app.get('/',(req,res)=> res.send("Server on"))
 app.use("/api",routerVeterinarios)
